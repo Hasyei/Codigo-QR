@@ -31,7 +31,7 @@ namespace algo_con_base_de_datos
                     QRCodeGenerator qRCode = new QRCodeGenerator();
                     QRCodeData qRDatos = qRCode.CreateQrCode(url, QRCodeGenerator.ECCLevel.H);
                     QRCode qRCodigo = new QRCode(qRDatos);
-                    Bitmap QRImagen = qRCodigo.GetGraphic(10, Color.Black, Color.White, (Bitmap)Bitmap.FromFile(@"C:\Users\hbust\source\repos\algo con base de datos\Recursos\logo.png"));
+                    Bitmap QRImagen = qRCodigo.GetGraphic(10, Color.Black, Color.White, Properties.Resources.logo);
                     pictureBox1.Image = QRImagen;
                 }
                 if (comboBox1.Text == "Numero de telefono")
@@ -41,7 +41,7 @@ namespace algo_con_base_de_datos
                     QRCodeGenerator qRCode = new QRCodeGenerator();
                     QRCodeData qRDatos = qRCode.CreateQrCode(phoneNumber, QRCodeGenerator.ECCLevel.H);
                     QRCode qRCodigo = new QRCode(qRDatos);
-                    Bitmap QRImagen = qRCodigo.GetGraphic(10, Color.Black, Color.White, (Bitmap)Bitmap.FromFile(@"C:\Users\hbust\source\repos\algo con base de datos\Recursos\logo.png"));
+                    Bitmap QRImagen = qRCodigo.GetGraphic(10, Color.Black, Color.White, Properties.Resources.logo);
                     pictureBox1.Image = QRImagen;
                 }
                 if (comboBox1.Text == "Mensaje")
@@ -51,7 +51,7 @@ namespace algo_con_base_de_datos
                     QRCodeGenerator qRCode = new QRCodeGenerator();
                     QRCodeData qRDatos = qRCode.CreateQrCode(sms, QRCodeGenerator.ECCLevel.H);
                     QRCode qRCodigo = new QRCode(qRDatos);
-                    Bitmap QRImagen = qRCodigo.GetGraphic(10, Color.Black, Color.White, (Bitmap)Bitmap.FromFile(@"C:\Users\hbust\source\repos\algo con base de datos\Recursos\logo.png"));
+                    Bitmap QRImagen = qRCodigo.GetGraphic(10, Color.Black, Color.White, Properties.Resources.logo);
                     pictureBox1.Image = QRImagen;
                 }
                 if (comboBox1.Text == "Whatsapp")
@@ -61,7 +61,7 @@ namespace algo_con_base_de_datos
                     QRCodeGenerator qRCode = new QRCodeGenerator();
                     QRCodeData qRDatos = qRCode.CreateQrCode(whatsApp, QRCodeGenerator.ECCLevel.H);
                     QRCode qRCodigo = new QRCode(qRDatos);
-                    Bitmap QRImagen = qRCodigo.GetGraphic(10, Color.Black, Color.White, (Bitmap)Bitmap.FromFile(@"C:\Users\hbust\source\repos\algo con base de datos\Recursos\logo.png"));
+                    Bitmap QRImagen = qRCodigo.GetGraphic(10, Color.Black, Color.White, Properties.Resources.logo);
                     pictureBox1.Image = QRImagen;
                 }
                 if (comboBox1.Text == "Contraseña de WIFI")
@@ -75,7 +75,7 @@ namespace algo_con_base_de_datos
                         QRCodeGenerator qRCode = new QRCodeGenerator();
                         QRCodeData qRDatos = qRCode.CreateQrCode(wifi, QRCodeGenerator.ECCLevel.H);
                         QRCode qRCodigo = new QRCode(qRDatos);
-                        Bitmap QRImagen = qRCodigo.GetGraphic(10, Color.Black, Color.White, (Bitmap)Bitmap.FromFile(@"C:\Users\hbust\source\repos\algo con base de datos\Recursos\logo.png"));
+                        Bitmap QRImagen = qRCodigo.GetGraphic(10, Color.Black, Color.White, Properties.Resources.logo);
                         pictureBox1.Image = QRImagen;
                     }
                     if (checkBox2.Checked == true)
@@ -84,7 +84,7 @@ namespace algo_con_base_de_datos
                         QRCodeGenerator qRCode = new QRCodeGenerator();
                         QRCodeData qRDatos = qRCode.CreateQrCode(wifi, QRCodeGenerator.ECCLevel.H);
                         QRCode qRCodigo = new QRCode(qRDatos);
-                        Bitmap QRImagen = qRCodigo.GetGraphic(10, Color.Black, Color.White, (Bitmap)Bitmap.FromFile(@"C:\Users\hbust\source\repos\algo con base de datos\Recursos\logo.png"));
+                        Bitmap QRImagen = qRCodigo.GetGraphic(10, Color.Black, Color.White, Properties.Resources.logo);
                         pictureBox1.Image = QRImagen;
                     }
                     if (checkBox3.Checked == true)
@@ -93,7 +93,7 @@ namespace algo_con_base_de_datos
                         QRCodeGenerator qRCode = new QRCodeGenerator();
                         QRCodeData qRDatos = qRCode.CreateQrCode(wifi, QRCodeGenerator.ECCLevel.H);
                         QRCode qRCodigo = new QRCode(qRDatos);
-                        Bitmap QRImagen = qRCodigo.GetGraphic(10, Color.Black, Color.White, (Bitmap)Bitmap.FromFile(@"C:\Users\hbust\source\repos\algo con base de datos\Recursos\logo.png"));
+                        Bitmap QRImagen = qRCodigo.GetGraphic(10, Color.Black, Color.White, Properties.Resources.logo);
                         pictureBox1.Image = QRImagen;
                     }
                 }
