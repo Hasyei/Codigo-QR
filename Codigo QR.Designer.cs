@@ -223,3 +223,5 @@ namespace algo_con_base_de_datos
         private System.Windows.Forms.Label label4;
     }
 }
+/* en el proyecto de investigación de la creación de códigos QR fue necesario usar un total de 500 etiquetas convinada entre llavel texbox control ñame checkbox y picture box 
+En los lave para indicar el lugar en el que sel usuario de vera ingresar os datos y que tipos de datos deberá ingrear los picture box para generar el código QR y de esta manera poder ingresar la imagen al centro la cual es almacenada de manera externa generandose así una carpeta oculta y encriptada para que no se pueda hacer uso o posesión libre de este repositorio la cual tiene como nombre "repositories" en conclusión todos me la pela y valen pitó fin*/
